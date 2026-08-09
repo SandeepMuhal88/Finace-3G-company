@@ -34,7 +34,7 @@ export const EmiCalculator: React.FC<EmiCalculatorProps> = ({ onApplyLoan }) => 
             <Calculator className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="text-base sm:text-lg font-bold text-slate-900">3G Loan EMI Calculator</h3>
+            <h3 className="text-base sm:text-lg font-bold text-slate-900">Shreeji Loan EMI Calculator</h3>
             <p className="text-xs text-slate-500">Instant Loan Calculation & RBI Approved Low Rates</p>
           </div>
         </div>
@@ -104,11 +104,10 @@ export const EmiCalculator: React.FC<EmiCalculatorProps> = ({ onApplyLoan }) => 
                 <button
                   key={rate}
                   onClick={() => setInterestRate(rate)}
-                  className={`text-xs px-2.5 py-1 rounded-lg font-bold border transition-all ${
-                    interestRate === rate
+                  className={`text-xs px-2.5 py-1 rounded-lg font-bold border transition-all ${interestRate === rate
                       ? 'bg-sky-600 text-white border-sky-600 shadow-xs'
                       : 'bg-white text-slate-600 border-sky-200 hover:bg-sky-50'
-                  }`}
+                    }`}
                 >
                   {rate}%
                 </button>

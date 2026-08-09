@@ -170,7 +170,7 @@ export const ProfileView: React.FC<ProfileViewProps> = ({ onOpenCall }) => {
         <div className="p-4 bg-sky-50 rounded-2xl border border-sky-100 flex items-center gap-3 text-xs text-slate-600">
           <ShieldCheck className="w-5 h-5 text-sky-600 shrink-0" />
           <p>
-            Your information is protected by 3G Finance Bank-Grade 256-Bit SSL Encryption. We never share your details with unauthorized third parties.
+            Your information is protected by Shreeji Finance Bank-Grade 256-Bit SSL Encryption. We never share your details with unauthorized third parties.
           </p>
         </div>
       </div>

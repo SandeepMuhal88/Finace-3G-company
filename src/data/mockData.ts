@@ -212,8 +212,8 @@ export const LOAN_SERVICES: LoanService[] = [
 
 export const COMPANY_FAQS: FAQItem[] = [
   {
-    question: "What makes 3G Finance Trading Company trustworthy?",
-    answer: "3G Finance Trading Company is fully compliant with financial regulations, operating under licensed NBFC partnerships with 256-bit SSL encryption. We maintain 100% transparency with zero hidden charges, flexible EMI tenure, and clear digital loan contracts.",
+    question: "What makes Shreeji Finance Trading Company trustworthy?",
+    answer: "Shreeji Finance Trading Company is fully compliant with financial regulations, operating under licensed NBFC partnerships with 256-bit SSL encryption. We maintain 100% transparency with zero hidden charges, flexible EMI tenure, and clear digital loan contracts.",
     category: "General"
   },
   {
@@ -227,23 +227,23 @@ export const COMPANY_FAQS: FAQItem[] = [
     category: "EMI & Payments"
   },
   {
-    question: "What minimum CIBIL score is required for 3G Finance loans?",
+    question: "What minimum CIBIL score is required for Shreeji Finance loans?",
     answer: "We welcome applicants with a CIBIL score of 650+. Even if you have a lower credit score, our Gold Loans and Secured Business Loans offer hassle-free approvals.",
     category: "Eligibility"
   },
   {
     question: "Are there pre-payment or foreclosure charges?",
-    answer: "3G Finance Trading Company offers 0% foreclosure charges on personal floating rate loans after completing 6 successful EMI payments.",
+    answer: "Shreeji Finance Trading Company offers 0% foreclosure charges on personal floating rate loans after completing 6 successful EMI payments.",
     category: "EMI & Payments"
   }
 ];
 
 export const COMPANY_BRANCH_INFO = {
-  name: "3G Finance Trading Company Pvt. Ltd.",
+  name: "Shreeji Finance Trading Company Pvt. Ltd.",
   tagline: "Your Trusted Financial Partner For Growth & Prosperity",
   regNumber: "CIN: U65929DL2018PTC339102",
   rbiStatus: "Registered Non-Banking Financial Partner",
-  headOffice: "3G Finance Tower, Floor 4, Plot 18-A, Financial District, Trade Corridor, New Delhi - 110001, India",
+  headOffice: "Shreeji Finance Tower, Floor 4, Plot 18-A, Financial District, Trade Corridor, New Delhi - 110001, India",
   phoneNumbers: ["+91 1800-333-3G3G (Toll Free)", "+91 98765 43210"],
   supportEmail: "support@3gfinancetrading.com",
   workingHours: "Monday to Saturday: 9:30 AM - 7:00 PM (IST)"

@@ -108,7 +108,7 @@ export const ProfileView: React.FC<ProfileViewProps> = ({
             </div>
 
             <p className="text-xs text-slate-300">
-              Your excellent credit score qualifies you for 3G Finance pre-approved personal & business loans up to ₹50 Lakhs with reduced interest rates.
+              Your excellent credit score qualifies you for Shreeji Finance pre-approved personal & business loans up to ₹50 Lakhs with reduced interest rates.
             </p>
           </div>
 

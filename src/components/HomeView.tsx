@@ -182,11 +182,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
         </div>
       </section>
 
-      {/* Why Choose 3G Finance Section */}
+      {/* Why Choose Shreeji Finance Section */}
       <section className="bg-white rounded-3xl border border-sky-100 p-6 sm:p-8 shadow-sm">
         <div className="text-center max-w-2xl mx-auto mb-8 space-y-1">
           <span className="text-xs font-bold text-sky-700 bg-sky-50 px-3 py-1 rounded-full border border-sky-200 uppercase tracking-wider">
-            Why 3G Finance
+            Why Shreeji Finance
           </span>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900">
             India's Leading Trusted Digital Loan Facilitator

@@ -1,6 +1,6 @@
-# 3G Finance Trading Company — Web Portal
+# Shreeji Finance Trading Company — Web Portal
 
-A professional single-page React application for **3G Finance Trading Company**, built with **React 19**, **Vite 8**, and **Tailwind CSS v4**.
+A professional single-page React application for **Shreeji Finance Trading Company**, built with **React 19**, **Vite 8**, and **Tailwind CSS v4**.
 
 ## 🚀 Live Demo
 
@@ -113,4 +113,4 @@ vercel --prod
 
 ---
 
-&copy; 2026 3G Finance Trading Company. All rights reserved.
+&copy; 2026 Shreeji Finance Trading Company. All rights reserved.

@@ -131,7 +131,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center justify-between pb-3 mb-3 border-b border-sky-100">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-sky-600" />
-              <span className="text-xs font-bold text-slate-800">3G Finance Quick Menu</span>
+              <span className="text-xs font-bold text-slate-800">Shreeji Finance Quick Menu</span>
             </div>
             {userProfile && (
               <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">

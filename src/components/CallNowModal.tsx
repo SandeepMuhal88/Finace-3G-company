@@ -29,7 +29,7 @@ export const CallNowModal: React.FC<CallNowModalProps> = ({ isOpen, onClose }) =
               24/7 Loan Assistance Helpline
             </span>
           </div>
-          <h3 className="text-xl font-extrabold text-white">Call 3G Finance Support</h3>
+          <h3 className="text-xl font-extrabold text-white">Call Shreeji Finance Support</h3>
         </div>
 
         {/* Body */}

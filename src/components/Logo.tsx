@@ -17,11 +17,11 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md', variant
 
   return (
     <div className={`flex items-center gap-2.5 font-bold tracking-tight select-none ${sizeClasses[size]} ${className}`}>
-      {/* 3G Finance Custom Emblem - Trust Royal Blue & Gold */}
+      {/* Shreeji Finance Custom Emblem - Trust Royal Blue & Gold */}
       <div className="relative flex items-center justify-center shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700 shadow-md border border-sky-300/50 text-white font-black text-lg">
         <div className="absolute inset-0.5 rounded-[10px] bg-blue-950/20 backdrop-blur-[1px] flex items-center justify-center">
           <span className="bg-gradient-to-br from-amber-300 via-white to-sky-200 bg-clip-text text-transparent drop-shadow-xs font-extrabold tracking-tighter text-xl">
-            3G
+            %
           </span>
         </div>
         {/* Upward Growth Arrow Accent */}
@@ -36,7 +36,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md', variant
       <div className="flex flex-col leading-none">
         <div className="flex items-center gap-1">
           <span className={`text-lg font-black tracking-wider uppercase ${isLightText ? 'text-white' : 'text-slate-900'}`}>
-            3G <span className="text-sky-600 font-extrabold">FINANCE</span>
+            Shreeji <span className="text-sky-600 font-extrabold">FINANCE</span>
           </span>
         </div>
         <span className={`text-[10px] font-semibold tracking-widest uppercase mt-0.5 ${isLightText ? 'text-sky-200' : 'text-slate-500'}`}>

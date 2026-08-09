@@ -107,7 +107,7 @@ export const ServiceView: React.FC<ServiceViewProps> = ({ onApplyLoan, selectedS
             RBI Approved Loan Offerings
           </span>
           <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-            3G Finance Loan Services
+            Shreeji Finance Loan Services
           </h1>
           <p className="text-xs text-slate-500 leading-relaxed">
             Transparent interest rates, minimal documentation, and 100% digital online approval. Select a loan product below to check eligibility & apply.

@@ -40,7 +40,7 @@ export const WelcomeModal: React.FC<WelcomeModalProps> = ({
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold tracking-tight text-white">
-            Welcome to 3G Finance
+            Welcome to Shreeji Finance
           </h2>
           <p className="text-xs text-sky-100 mt-1">
             Trusted Loan & Trading Finance Partner Since 2012
@@ -54,7 +54,7 @@ export const WelcomeModal: React.FC<WelcomeModalProps> = ({
             <Logo size="md" variant="dark" />
             <div className="text-right">
               <span className="text-[10px] text-slate-500 font-semibold block">Reg. No.</span>
-              <span className="text-xs font-bold text-sky-700">3G/FIN/2026/892</span>
+              <span className="text-xs font-bold text-sky-700">SFTC/FIN/2026/892</span>
             </div>
           </div>
 

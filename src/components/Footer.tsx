@@ -17,11 +17,11 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenCallModal, on
           <div className="md:col-span-4 space-y-4">
             <Logo size="md" variant="light" />
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-              3G Finance Trading Company is a premier digital loan aggregator and financial technology partner registered under Indian Non-Banking Financial regulations.
+              Shreeji Finance Trading Company is a premier digital loan aggregator and financial technology partner registered under Indian Non-Banking Financial regulations.
             </p>
             <div className="flex items-center gap-2 text-[11px] text-sky-400 font-semibold bg-sky-950/60 p-2.5 rounded-xl border border-sky-800/50">
               <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>RBI / NBFC Partner Reg. No: 3G/FIN/2026/892</span>
+              <span>RBI / NBFC Partner Reg. No: SFTC/FIN/2026/892</span>
             </div>
           </div>
 
@@ -95,7 +95,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenCallModal, on
 
         {/* Bottom Disclaimer */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-          <p>© 2026 3G Finance Trading Company. All Rights Reserved.</p>
+          <p>© 2026 Shreeji Finance Trading Company. All Rights Reserved.</p>
           <div className="flex items-center gap-4">
             <a href="#privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
             <span>·</span>

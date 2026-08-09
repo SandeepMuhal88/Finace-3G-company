@@ -1,6 +1,6 @@
 {
-  "name": "3G Finance Trading Company",
-  "description": "Official financial services portal for 3G Finance Trading Company providing instant loans, EMI calculations, live loan dashboard, profile management, and online EMI payments.",
+  "name": "Shreeji Finance Trading Company",
+  "description": "Official financial services portal for Shreeji Finance Trading Company providing instant loans, EMI calculations, live loan dashboard, profile management, and online EMI payments.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

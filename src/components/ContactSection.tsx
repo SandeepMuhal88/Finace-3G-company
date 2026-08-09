@@ -54,8 +54,8 @@ export const ContactSection: React.FC = () => {
               </div>
               <div>
                 <span className="font-bold text-slate-900 block">Email Support</span>
-                <a href="mailto:support@3gfinance.com" className="text-sky-700 font-bold hover:underline">
-                  support@3gfinance.com
+                <a href="mailto:[EMAIL_ADDRESS]" className="text-sky-700 font-bold hover:underline">
+                  [EMAIL_ADDRESS]
                 </a>
                 <span className="text-[10px] text-slate-500 block">Average Response Time: 15 minutes</span>
               </div>
@@ -67,7 +67,7 @@ export const ContactSection: React.FC = () => {
               </div>
               <div>
                 <span className="font-bold text-slate-900 block">Head Corporate Office</span>
-                <span className="text-slate-600 font-medium">3G Finance Tower, Sector 62, Noida, NCR, India - 201301</span>
+                <span className="text-slate-600 font-medium">Shreeji Finance Tower, Sector 62, Noida, NCR, India - 201301</span>
               </div>
             </div>
           </div>

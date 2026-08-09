@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { 
-  ShieldCheck, 
-  CreditCard, 
-  Clock, 
-  CheckCircle2, 
-  FileText, 
-  Download, 
-  PlusCircle, 
-  ArrowUpRight, 
+import {
+  ShieldCheck,
+  CreditCard,
+  Clock,
+  CheckCircle2,
+  FileText,
+  Download,
+  PlusCircle,
+  ArrowUpRight,
   AlertCircle,
   TrendingUp,
   UserCheck
@@ -23,7 +23,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onOpenPayEmi, onAp
 
   const myLoans = [
     {
-      id: '3G-LN-982314',
+      id: 'SLPL-LN-982314',
       type: 'Personal Loan',
       amount: 300000,
       disbursedDate: '12 Jan 2026',
@@ -35,7 +35,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onOpenPayEmi, onAp
       interestRate: '8.5%',
     },
     {
-      id: '3G-LN-441209',
+      id: 'SLPL-LN-441209',
       type: 'Two Wheeler Loan',
       amount: 85000,
       disbursedDate: '05 Mar 2025',
@@ -135,31 +135,28 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onOpenPayEmi, onAp
         <div className="flex items-center gap-2 border-b border-sky-100 pb-4 overflow-x-auto">
           <button
             onClick={() => setActiveTab('loans')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-              activeTab === 'loans'
-                ? 'bg-sky-600 text-white shadow-xs'
-                : 'bg-sky-50/50 text-slate-600 hover:bg-sky-100/60'
-            }`}
+            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${activeTab === 'loans'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50/50 text-slate-600 hover:bg-sky-100/60'
+              }`}
           >
             Active Loans ({myLoans.length})
           </button>
           <button
             onClick={() => setActiveTab('transactions')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-              activeTab === 'transactions'
-                ? 'bg-sky-600 text-white shadow-xs'
-                : 'bg-sky-50/50 text-slate-600 hover:bg-sky-100/60'
-            }`}
+            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${activeTab === 'transactions'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50/50 text-slate-600 hover:bg-sky-100/60'
+              }`}
           >
             Payment History
           </button>
           <button
             onClick={() => setActiveTab('documents')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-              activeTab === 'documents'
-                ? 'bg-sky-600 text-white shadow-xs'
-                : 'bg-sky-50/50 text-slate-600 hover:bg-sky-100/60'
-            }`}
+            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${activeTab === 'documents'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50/50 text-slate-600 hover:bg-sky-100/60'
+              }`}
           >
             Loan Sanction Letters
           </button>

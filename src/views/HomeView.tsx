@@ -51,7 +51,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold mb-6">
             <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-spin-slow" />
-            <span>Official Portal • 3G Finance Trading Company</span>
+            <span>Official Portal • Shreeji Finance Trading Company</span>
             <button 
               onClick={onOpenWelcomeDialogue}
               className="ml-2 text-[11px] underline text-amber-400 hover:text-amber-200 cursor-pointer font-extrabold"
@@ -70,7 +70,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
 
           {/* Description */}
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-8 max-w-2xl font-normal">
-            Welcome to <strong className="text-white font-bold">3G Finance Trading Company</strong>. We empower individuals and small businesses with instant, hassle-free low-interest loans, transparent processing, and digital EMI management.
+            Welcome to <strong className="text-white font-bold">Shreeji Finance Trading Company</strong>. We empower individuals and small businesses with instant, hassle-free low-interest loans, transparent processing, and digital EMI management.
           </p>
 
           {/* TWO ATTRACTIVE BUTTONS: View Dashboard & Call Now */}
@@ -216,11 +216,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
         />
       </section>
 
-      {/* Why Choose 3G Finance Section */}
+      {/* Why Choose Shreeji Finance Section */}
       <section className="bg-slate-900/60 border border-slate-800/80 rounded-3xl p-6 sm:p-10 text-white space-y-8">
         <div className="text-center max-w-2xl mx-auto space-y-2">
           <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">3G Trust Guarantee</span>
-          <h2 className="text-2xl sm:text-3xl font-black">Why 3G Finance Trading Company?</h2>
+          <h2 className="text-2xl sm:text-3xl font-black">Why Shreeji Finance Trading Company?</h2>
           <p className="text-xs sm:text-sm text-slate-300">
             Built on integrity, speed, and customer satisfaction. We take pride in delivering transparent financial assistance across India.
           </p>

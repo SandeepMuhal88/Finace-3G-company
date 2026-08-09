@@ -62,7 +62,7 @@ export const ServiceView: React.FC<ServiceViewProps> = ({ onOpenCallModal, onOpe
     setTimeout(() => {
       setApplyFormSubmitted(false);
       setApplyModalService(null);
-      alert("Application submitted! Our 3G Finance representative will verify your documents within 2 hours.");
+      alert("Application submitted! Our Shreeji Finance representative will verify your documents within 2 hours.");
     }, 2000);
   };
 
@@ -84,7 +84,7 @@ export const ServiceView: React.FC<ServiceViewProps> = ({ onOpenCallModal, onOpe
           </h1>
 
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-            Explore our comprehensive portfolio of low-interest loan options. Every loan product from 3G Finance Trading Company features 100% digital verification, clear EMI terms, and zero hidden penalties.
+            Explore our comprehensive portfolio of low-interest loan options. Every loan product from Shreeji Finance Trading Company features 100% digital verification, clear EMI terms, and zero hidden penalties.
           </p>
 
           <div className="pt-2 flex flex-wrap items-center gap-3">
@@ -285,8 +285,8 @@ export const ServiceView: React.FC<ServiceViewProps> = ({ onOpenCallModal, onOpe
                 </div>
 
                 <div className="p-3 rounded-xl bg-slate-950 border border-slate-800 text-[11px] text-slate-400">
-                  <span className="font-bold text-slate-300 block mb-0.5">3G Finance Verification:</span>
-                  By submitting, you consent to soft credit check and contact by a 3G Finance relationship officer.
+                  <span className="font-bold text-slate-300 block mb-0.5">Shreeji Finance Verification:</span>
+                  By submitting, you consent to soft credit check and contact by a Shreeji Finance relationship officer.
                 </div>
 
                 <button
